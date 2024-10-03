@@ -1,8 +1,8 @@
 from deepface import DeepFace
 
-result = DeepFace.verify(
-  img1_path = "data/IMG_4139.jpg",
-  img2_path = "data/IMG_4139.jpg",
+result = DeepFace.find(
+    img_path="data/IMG_4035.heic.jpg",
+    db_path="data",
 )
 
 print(result)
